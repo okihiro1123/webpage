@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("ipaexm.ttf");
+}
+html,
+body {
+  position: relative;
+  min-height: 100%;
+  /* font-family: "MyFont"; */
+}
+
+/* ナビゲーション上 */
+.navber {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+}
+.longLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-size {
+  width: 13rem;
+  padding: 0.9rem;
+}
+.whiteLogo {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+}
+
+/* ナビゲーション下 */
+.nav-mane,
+.nav-mane-list {
+  margin: 0;
+}
+.nav-mane-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-mane-item {
+  display: inline-block;
+  font-size: 13px;
+  padding: 1.1rem;
+}
+li.color1 {
+  color: rgb(255, 255, 255);
+}
+li.color2 {
+  color: rgb(118, 118, 118);
+}
